@@ -1,0 +1,402 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: 400px;
+    margin: 0 auto;
+}
+body {
+ font-family: sans-serif;
+}
+#hero {
+    padding-top: 30px;
+    display: none;
+}
+
+.iphone-border {
+    width: 320px;
+    height: 640px;
+    border: 7px solid black;
+    border-radius: 40px;
+    position: relative;
+}
+.iphone-fon {
+    background: url("../img/fon1.jpg");
+    width: 320px;
+    height: 640px;
+    border-radius: 32px;
+    position: absolute;
+}
+.camera {
+    margin-top: 10px;
+    width: 150px;
+    height: 20px;
+    background: #625b5b;
+    border-radius: 10px;
+    margin-left: 85px;
+    position: relative;
+    z-index: 3;
+}
+.camera-cam {
+    width: 15px;
+    height: 15px;
+    background: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 10px;
+    top: 2px;
+}
+.mikro {
+    width: 65px;
+    height: 10px;
+    background: black;
+    position: absolute;
+    left: 40px;
+    top: 4px;
+    border-radius: 10px;
+}
+.cam {
+    width: 15px;
+    height: 15px;
+    background: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 120px;
+    top: 2px;
+}
+/*.img {*/
+/*    width: 318px;*/
+/*    height: 638px;*/
+/*    border-radius: 32px;*/
+/*    position: absolute;*/
+/*    bottom: 11px;*/
+/*    !*right: 645px;*!*/
+/*    margin-left: 7px;*/
+/*}*/
+.clock {
+    color: white;
+    font-size: 12px;
+    z-index: 3;
+    margin-left: 16px;
+    position: absolute;
+    top: 13px;
+}
+.clockk {
+    color: white;
+    font-size: 5rem;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.push {
+    padding-top: 50px;
+    margin-left: 25px;
+}
+.input {
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    background: transparent;
+}
+.btn {
+    width: 70px;
+    height: 30px;
+    background: crimson;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.white {
+    width: 130px;
+    height: 5px;
+    background: white;
+    color: white;
+    z-index: 3;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 3px;
+    left: 95px;
+}
+.a {
+    color: white;
+    position: absolute;
+    margin-left: 55px;
+    top: 13px;
+    font-size: 15px;
+}
+.b {
+    color: white;
+    position: absolute;
+    right: 40px;
+    top: 13px;
+    font-size: 15px;
+}
+.c {
+    color: white;
+    position: absolute;
+    right: 15px;
+    top: 13px;
+    font-size: 15px;
+}
+.map {
+    margin-top: 30px;
+    margin-left: 12px;
+}
+/*.apps img{*/
+/*    width: 100px;*/
+/*    height: 60px;*/
+/*}*/
+.apps {
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    position: relative;
+}
+.gmail {
+    width: 110px;
+    height: 62px;
+    position: absolute;
+    top: 8px;
+    right: 0;
+}
+.disk {
+    width: 155px;
+    height: 83px;
+    position: absolute;
+    top: 0;
+    right: 50px;
+    margin-top: -2px;
+}
+.mail {
+    width: 150px;
+    height: 80px;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    margin-left: 10px;
+    left: 180px;
+
+}
+.zametki {
+    width: 200px;
+    height: 90px;
+    position: absolute;
+    top: 65px;
+    right: 25px;
+    margin-left: 10px;
+}
+.apps2 {
+    /*display: flex;*/
+    /* align-items: center;*/
+    /*justify-content: space-between;*/
+    padding-top: 20px;
+}
+.apps2-block {
+    display: flex;
+    align-items: center;
+}
+.aps2-blockk {
+    display: flex;
+    align-items: center;
+}
+.appstore {
+    width: 60px;
+    height: 58px;
+    margin-left: 20px;
+}
+.tv {
+    width: 180px;
+    height: 90px;
+    position: absolute;
+    left: 35px;
+}
+.face {
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    top: 180px;
+    left: 45px;
+}
+.foto {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    right: 15px;
+    top: 225px;
+}
+.aps3-block {
+    display: flex;
+    align-items: center;
+}
+.settings {
+    width: 65px;
+    height: 65px;
+    margin-left: 20px;
+}
+.bilayn {
+    width: 113px;
+    height: 97px;
+    margin-left: -15px;
+    margin-top: 10px;
+}
+.block {
+    display: flex;
+    align-items: center;
+}
+.cluch {
+    width: 120px;
+    height: 65px;
+}
+.block {
+    position: absolute;
+    left: 145px;
+    top: 310px;
+}
+.modal {
+    display: none;
+
+}
+.modal-bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -250px;
+}
+.modal-bg-sc {
+
+    width: 250px;
+    height: 300px;
+    background: #6c6666;
+    border-radius: 20px;
+    position: relative;
+    animation: ani .8s alternate linear;
+
+}
+@keyframes ani {
+    0%{
+        opacity: 0;
+        transform: scale(0);
+    }
+    25%{
+        opacity: 0.3;
+        transform: scale(0.3);
+    }
+    50%{
+        opacity: 0.6;
+        transform: scale(0.6);
+    }
+    75%{
+        opacity: 1;
+        transform: scale(1.2);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+
+}
+.modal-bg-sc a {
+    color: white;
+    font-size: 12px;
+    position: relative;
+}
+.disp img {
+    padding-top: 20px;
+}
+.disp {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.disp h1 {
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 5px;
+    left: 35px;
+    padding-bottom: 20px;
+}
+.cleos {
+    width: 60px;
+    height: 60px;
+    background: #aba3a3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.insta {
+    width: 100px;
+    height: 60px;
+}
+.wh {
+    width: 150px;
+    height: 70px;
+    position: absolute;
+    left: 45px;
+}
+.tele {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    position: absolute;
+    right: 25px;
+}
+.a1 {
+    margin-left: 20px;
+}
+.a2 {
+    margin-left: 15px;
+}
+.a3 {
+    margin-left: 20px;
+}
+.apps5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.block23 {
+    display: flex;
+    align-items: center;
+}
+.saf {
+    width: 130px;
+    height: 70px;
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    margin-left: -10px;
+}
+.message {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 20px;
+    left: 100px;
+}
+.came {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    bottom: 15px;
+    right: 80px;
+}
+.tell {
+    width: 75px;
+    height: 70px;
+    position: absolute;
+    bottom: 15px;
+    right: 8px;
+}
